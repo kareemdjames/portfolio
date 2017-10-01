@@ -1,0 +1,36 @@
+body {
+  display: flex; /*refers to self*/
+  flex-direction: column;
+}
+.head-wrap {
+  flex: 1; /*refers to body*/
+  min-height: 100px;
+  opacity: .60;
+  color: white;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+header nav {
+  min-height: 100px;
+}
+nav ul {
+  min-height: 100px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+}
+nav li {
+  float: right;
+}
+.content-wrap {
+  flex: 2; /*refers to body*/
+  display: flex; /*refers to self*/
+}
+.foot-wrap {
+  flex: 1; /*relates to body*/
+  min-height: 100px;
+  background: black;
+  position: fixed;
+  bottom: 0px;
+}
