@@ -1,0 +1,29 @@
+.left-side {
+  flex: 1; /*refers to parent*/
+  display: flex; /*refers to self*/
+  flex-direction: column; /*refers to self*/
+  height: 100vh;
+}
+#proj-info {
+  flex: 1; /*refers to parent*/
+  background: yellow;
+}
+.right-side {
+  flex: 1; /*refers to parent*/
+  display: flex; /*refers to self*/
+  flex-direction: column; /*refers to self*/
+}
+#proj-one, #proj-two, #proj-three {
+  flex: 1;
+  min-height: 100px;
+  width: 100%;
+}
+#proj-one {
+  background: red;
+}
+#proj-two {
+  background: blue;
+}
+#proj-three {
+  background: green;
+}
